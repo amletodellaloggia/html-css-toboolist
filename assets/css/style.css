@@ -39,11 +39,47 @@ img {
 
 /* Container Tasks */
 
-.container-tasks {
+.container {
 	min-width: 66%;
 	min-height: 500px;
-	margin: 0 200px; 
+	margin: 0 200px;
+	padding: 15px 45px 0; 
 	border-radius: 10px;
 	background-color: white;
+}
 
+.line {
+
+  height: 2px;
+  background-color: #F6F8FA;
+  margin: 0 0 30px 0;
+}
+
+
+.button {
+	display: inline-block;
+    height: 25px;
+	padding: 0 10px 0 10px;
+	margin-bottom: 10px;
+    line-height: 25px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.add-tsk {
+	color: white;
+	border: 1px solid #44ACF3;
+	background-color: #44ACF3;
+}
+
+.add-sct {
+	color: #CED3D2;
+	border: 1px solid #CED3D2;
+	background-color: transparent;
+}
+
+hr {
+	display: inline-block;
+	border-color: #F6F8FA;
+	width: 150%;
 }
