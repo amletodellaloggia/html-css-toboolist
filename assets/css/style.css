@@ -16,6 +16,37 @@ main {
 
 }
 
+.check {
+  display: inline-block;
+  line-height: 15px;
+  /* vertical-align: middle; */ 
+  /* senza vertical-align è meglio, ma rispetto la consegna */
+  width: 15px;
+  border-radius: 50%;
+  border: 1px solid green;
+  text-align: center;
+  font-size: x-small;
+  color: green;
+  background-color: transparent;
+  margin-right: 5px;
+}
+
+.cross {
+  display: inline-block;
+  line-height: 15px;
+  /* vertical-align: middle; */ 
+  /* senza vertical-align è meglio, ma rispetto la consegna */
+  width: 15px;
+  border-radius: 50%;
+  border: 1px solid red;
+  text-align: center;
+  font-size: x-small;
+  color: red;
+  background-color: transparent;
+  margin-right: 5px;
+}
+
+
 /* Header */
 
 header {
@@ -37,7 +68,7 @@ img {
 	vertical-align: middle;
 }
 
-/* Container Tasks */
+/* Container & (fake)Add Buttons */
 
 .container {
 	min-width: 66%;
@@ -78,8 +109,16 @@ img {
 	background-color: transparent;
 }
 
-hr {
-	display: inline-block;
-	border-color: #F6F8FA;
-	width: 150%;
+/* Liste Container */
+
+ul {
+	font-weight: bold;
 }
+
+li {
+	font-weight: normal;
+	list-style-type: none;
+	/* padding-left: 10px; */
+	/* con padding-left:10 px è meglio, ma rispetto la cosegna */
+}
+
